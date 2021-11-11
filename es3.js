@@ -10,7 +10,7 @@ $("#btnMulti").click(function () {
 $("#btnDivide").click(function () {
   calcolo("/");
 });
-function calcolo(segno) {
+var calcolo = function (segno) {
   var input1 = $("#num1");
   var input2 = $("#num2");
   var n1 = parseInt(input1.val());
