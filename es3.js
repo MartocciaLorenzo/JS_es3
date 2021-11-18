@@ -1,6 +1,6 @@
 var myStorage = window.localStorage;
 for (let index = 0; index < localStorage.length; index++) {
-  $("#tab").append(localStorage.getItem(index)); 
+  $("#tab").append(localStorage.getItem(index));
 }
 
 $("#btnPlus").click(function () {
